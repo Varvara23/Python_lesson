@@ -47,6 +47,7 @@ def rare(_list_w):
 print(rare(list_w))
 
 # 4.  В файле с логами найти дату самого позднего лога (по метке времени)
+
 file = open('log', encoding='utf-8')
 dt_max = datetime.datetime(1900, 1, 1)  # объявляем нулевую дату 01.01.1900
 for line in file:
